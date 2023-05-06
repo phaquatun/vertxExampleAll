@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleBaseF.css" />
+    <title>Document</title>
+  </head>
+
+  <body >
+    <div class="container">
+      <div class="infoRegister">
+        <!-- <div class="stepArow">
+          <div class="progress"></div>
+          <div class="s1">step 1</div>
+          <div class="s2">step 2</div>
+          <div class="s3">step 3</div>
+        </div> -->
+
+        <form id="infoLogin">
+          <h3>Tạo Tài khoản</h3>
+          <input type="text" class="info" id="mail" placeholder="E-mail" value="" required/>
+          <input type="text" class="info" id="nameUser" value="" placeholder="Tên của bạn" />
+          <input type="password" class="info" id="password" value="" placeholder="Mật khẩu" />
+          <input type="text" class="info" id="phone" value="" placeholder="Số điện thoại" />
+          <div class="completeInfo"><h5></h5></div>
+          <div class="btn-box">
+            <button type="button" class="nextFormLogin">tiếp tục</button>
+          </div>
+        </form>
+
+        <form class="infoBank" id="infoBank">
+          <h3>Tài khoản thanh toán</h3>
+          <input type="text" class="info" id="nameBank" placeholder="Tên ngân hàng" />
+          <input type="text" class="info" id="idCredit" placeholder="Id thẻ thanh toán" />
+          <input type="text" class="info" id="cardHolderName" placeholder="Tên chủ thẻ" />
+          <div class="completeInfo"><h5></h5></div>
+          <div class="btn-box">
+            <button type="button" class="backFormInfoBank">trở lại</button>
+            <button type="button" class="nextFormInfoBank">tiếp tục</button>
+          </div>
+        </form>
+
+        <form class="upImage" id="upImg">
+          <h3>Up Ảnh xe</h3>
+          <input type="file"  name="image" id="previousCar"  accept="image/*" style="display:none;" >
+          <label for="previousCar"><img id="lbPrevious"  src="./image/upload.png" alt="">Mắt trước xe</label>
+
+          <input type="file" name="image" id="behinCar" accept="image/*" style="display:none;">
+          <label  for="behinCar"><img id="lbBehin" src="./image/upload.png" alt="">Mặt sau xe</label>
+          
+          <input type="file" name="image" id="horizontalCarr" accept="image/*" style="display:none;" >
+          <label for="horizontalCarr"><img id="lbHoriz" src="./image/upload.png" alt="">Mặt Ngang xe</label>
+
+          <input type="file" name="image" id="licensePlatesCar" accept="image/*" style="display:none;" >
+          <label for="licensePlatesCar"><img id="lbLicen" src="./image/upload.png" alt="">Biển số xe</label>
+
+          <input type="file" name="image" id="faceDriver" accept="image/*" style="display:none;">
+          <label for="faceDriver"><img  id="lbFaceDr" src="./image/upload.png" alt="">Ảnh tài xế</label>
+
+          <div class="completeInfo"><h5></h5></div>
+          <div class="btn-box">
+            <button type="button" class="backFormUpImg" >trở lại</button>
+            <button type="button" class="completeRegist nextFormUpImg" >đăng ký</button>
+          </div>
+        </form>
+
+        
+
+      </div>
+
+      <div class="notice">
+        <div id="formRegister">
+          Tạo tài khoản của riêng bạn với thông tin khách hàng của chúng tôi có
+          thể liên hệ
+        </div>
+
+        <div id="formUpImage">
+          Cung cấp ảnh của bản thân và xe để khách hàng chọn bạn
+        </div>
+
+        <div id="formInfoBank">
+          Thông tin Tài khoản , để chúng tôi thanh toán cho bạn
+        </div>
+      </div>
+    </div>
+
+
+    <script src="handleBtn.js"></script>
+    <script type="module" src="app.js"></script>
+    
+  </body>
+</html>

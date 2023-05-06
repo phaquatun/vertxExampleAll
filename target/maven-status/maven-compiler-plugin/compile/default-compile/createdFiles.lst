@@ -1,0 +1,15 @@
+FormatPojo\Test.class
+Model\Driver\DataBase\DAODriver.class
+Model\Driver\DataBase\HandleDriverRegister.class
+Model\Driver\DataBase\UploadImgCodeC.class
+FormatPojo\FormatUploadFile.class
+Model\Driver\ConstanceUser.class
+Model\Driver\DriverVerticle.class
+FormatPojo\FormatRes.class
+Model\Admin\DataBase\DAOAdmin.class
+Model\SetUpServer\SetUpServer.class
+Model\Driver\DataBase\HandleDriverFile.class
+Model\SetUpServer\ConstantManager.class
+Model\SetUpServer\DeployServer.class
+com\mycompany\managercar\HandlerCookie.class
+Model\Admin\AdminVerticle.class

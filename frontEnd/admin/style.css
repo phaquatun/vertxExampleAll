@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: capitalize;
+    transition: all 0.5s cubic-bezier(.38, 1.15, .7, 1.12);
+    color: rgb(40, 42, 54);
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding-top: 3rem; */
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 100vh;
+    width: 100%;
+}
+
+.container form {
+    border: 0;
+    padding: 1rem;
+    padding-left: 4.2rem;
+    padding-right: 4.2rem;
+    height: 50vh;
+    width: 30rem;
+    border-radius: 0.8rem;
+    box-shadow: 10px 10px 50px grey;
+    background: transparent;
+}
+
+form h2 {
+    color: violet;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+form input {
+    padding: 0.8rem;
+    border: 0;
+    border-bottom: 2px solid #999;
+    color: rgb(40, 42, 54);
+    font-size: medium;
+    overflow: hidden;
+    text-transform: none;
+    font-size: 1rem;
+}
+
+::placeholder {
+    color: #999;
+}
+
+form .notice {
+    padding-top: 2rem;
+    font-size: 0.8rem;
+    text-align: center;
+    color: gray;
+}
+
+form button {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 0;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(28, 102, 222, 0.6);
+}

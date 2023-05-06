@@ -1,0 +1,33 @@
+{
+	"_id":"idMongo",	//providerHs256  index
+	"uid":"random UUID",	//provider index
+	"timeCr":"timeCreate",	//provider index & providerHs256
+	"userName":"name",		
+	"pass" :"pass" ,
+	"phone":"phone",
+	"email":"mail",		// provider index & providerHs256
+	"nameBank" :"nameBank",
+	"idBank":"idBank",
+	"Presenter":"Presenter",
+	"image":{
+		"profilePicture":""
+	},
+	"post":[
+		{
+		"idPost":"idPost uuidRandom",
+		"timePost":"timePost",
+		"content":"content",
+		"userBock":"userBlock",
+		"status":"status",
+		"display":true
+		},
+		{
+		"idPost":"idPost uuidRandom",
+		"timePost":"timePost",
+		"content":"content",
+		"userBock":"userBlock",
+		"status":"status",
+		"display":false
+		}
+	]
+}

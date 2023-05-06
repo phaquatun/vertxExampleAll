@@ -1,0 +1,11 @@
+TestCaseHttpClient\RunTestCase.class
+TestCaseHttpClient\TestCreateAcc.class
+TestCase\TestCase.class
+TestCaseHttpClient\HttpClientVerticle.class
+TestMongo\TestMongo.class
+TestCase\DeployTest.class
+TestCase\TestJWT.class
+TestCase\DeployTestMongo.class
+TestCase\TestUpload.class
+TestCase\TestValidation.class
+TestCase\TestUploadImgVerticles.class

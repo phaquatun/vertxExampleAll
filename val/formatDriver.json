@@ -1,0 +1,54 @@
+{
+	"_id":"idMongo",		//					providerHs256  index
+	"idMUs":"_idInMongoDbUser",
+	"uid":"random UUID",	//provider index
+	"timeCr":"timeCreate",	//provider index & 	providerHs256
+	"userName":"name",		
+	"pass" :"pass" ,
+	"phone":"phone",		//provider index & 	providerHs256
+	"email":"mail",			//provider index & 	providerHs256
+	"locaitonActive":"locaitonActive",
+	"nameBank" :"nameBank",
+	"idBank":"idBank",
+	"Presenter":"Presenter",
+	"image":{
+		"preCar":{
+			"idGridFs":"idGridFs",
+			"fileName":"fileName"
+		},
+		"behinCar":{
+			"idGridFs":"idGridFs",
+			"fileName":"fileName"
+		},
+		"horizCar":{
+			"idGridFs":"idGridFs",
+			"fileName":"fileName"
+		},
+		"licexCar":{
+			"idGridFs":"idGridFs",
+			"fileName":"fileName"
+		},
+		"faceDri":{
+			"idGridFs":"idGridFs",
+			"fileName":"fileName"
+		}
+	},
+	"post":[
+		{
+		"idPost":"idPost uuidRandom",
+		"timePost":"timePost",
+		"content":"content",
+		"userBock":"userBlock",
+		"status":"status",
+		"display":true
+		},
+		{
+		"idPost":"idPost uuidRandom",
+		"timePost":"timePost",
+		"content":"content",
+		"userBock":"userBlock",
+		"status":"status",
+		"display":false
+		}
+	]
+}

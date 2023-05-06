@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: capitalize;
+    transition: all 0.5s cubic-bezier(.38, 1.15, .7, 1.12);
+    color: #fff;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(./image/blue.png);
+    background-repeat: no-repeat;
+    /* background-position: top; */
+    background-size: 140% 100%;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    height: 100vh;
+}
+
+
+.container .infoRegister {
+    flex: 1;
+    padding: 10rem 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+
+h3 {
+    text-align: center;
+    margin-bottom: 1.2rem;
+    color: #fff;
+}
+
+.infoRegister .infoLogin h3 {
+    color: white;
+}
+
+.infoRegister form {
+    width: 25rem;
+    height: 40vh;
+    position: absolute;
+    background-color: rgba(28, 95, 208, 0.8);
+}
+
+
+form input,
+label {
+    width: 100%;
+    padding: 1rem 0.2rem;
+    min-height: 2rem;
+    margin: 0.6rem;
+    border: 0;
+    border-bottom: 1.2px solid #999;
+    outline: none;
+    color: #fff;
+    background: transparent;
+    font-size: medium;
+    overflow: hidden;
+    text-transform: none;
+}
+
+form label img {
+    width: 4rem;
+    height: 4rem;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+form .completeInfo h5 {
+    padding: 2rem;
+    color: #fff;
+}
+
+form .btn-box {
+    width: 100%;
+    margin: 2rem auto;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+form button {
+    width: 9rem;
+    height: 2.8rem;
+    margin: 0 0.7rem;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 2rem;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.upImage input {
+    display: none;
+}
+
+.infoRegister .upImage {
+    position: absolute;
+    right: -90%;
+
+}
+
+.infoRegister .infoBank {
+    position: absolute;
+    right: -120%;
+}
+
+
+.container .notice {
+    flex: 1;
+    padding-top: 12rem;
+    padding-left: 0;
+    text-align: start;
+}
+
+.container .notice div {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1rem;
+    color: #777;
+    text-align: left;
+}
+
+.notice #formRegister {
+    color: #fff;
+}
+
+.notice .imgCheck {
+    width: 1rem;
+    height: 1rem;
+}
